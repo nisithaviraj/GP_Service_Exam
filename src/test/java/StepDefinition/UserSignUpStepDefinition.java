@@ -6,7 +6,7 @@ import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 
-public class UserSignUpWIthValidDetails {
+public class UserSignUpStepDefinition {
 
 	@When("user submit {string},{string},{string},{string} basic sign up details on  sign up page")
 	public void user_submit_basic_sign_up_details_on_sign_up_page(String email, String mobileNumber, String password,
